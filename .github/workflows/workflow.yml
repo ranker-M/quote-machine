@@ -9,9 +9,9 @@ jobs:
   build:
     runs.on: ubuntu-latest
 
-    startegy:
+    strategy:
       matrix:
-        node-version:[15.x]
+        node-version: [15.x]
 
     steps:
       - name: Checkout
